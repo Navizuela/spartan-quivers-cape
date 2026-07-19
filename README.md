@@ -8,4 +8,4 @@ The addon does not replace Spartan's Curios capability. Spartan scans all
 equipped Curios for `QuiverBaseItem`, so ammo selection, firing, collection,
 rendering and the quiver inventory remain handled by the original mod.
 
-Install the JAR on both client and server so slot validation uses identical tags.
+Installing the JAR on both client and server is required for MP so slot validation uses identical tags.
