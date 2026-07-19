@@ -1,0 +1,45 @@
+modLoader = "lowcodefml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "spartan_quivers_cape"
+version = "1.0.0"
+displayName = "Spartan Quivers in Cape Slot"
+authors = "Navi"
+description = '''Moves Spartan Weaponry Unofficial quivers from the Back slot to the Cape slot while retaining their Curios functionality.'''
+
+[[dependencies.spartan_quivers_cape]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.spartan_quivers_cape]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.spartan_quivers_cape]]
+modId = "spartan_weaponry_unofficial"
+type = "required"
+versionRange = "[1.2.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.spartan_quivers_cape]]
+modId = "accessories"
+type = "required"
+versionRange = "[1.1.0-beta.53,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.spartan_quivers_cape]]
+modId = "accessories_compat_layer"
+type = "required"
+versionRange = "[0.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
